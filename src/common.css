@@ -20,7 +20,14 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .stay {
-	position: fixed;
+	position: relative;
+}
+
+.stay.left, 
+.stay.top, 
+.stay.right, 
+.stay.bottom {
+	position: absolute;
 }
 
 .stay.left {
@@ -37,13 +44,26 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .stay.top.center {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
 }
 
-.stay.bottom {
+.stay.bottom, 
+.stay.bottom.center {
 	bottom: 0;
+}
+
+.stay.bottom.center {
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
 }
 
 /* # WHITE-SPACE # */
