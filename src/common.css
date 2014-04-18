@@ -454,8 +454,34 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	font-style: italic;
 }
 
-.text.under {
-	font-style: oblique;
+.text.underline {
+	text-decoration: underline;
+}
+
+.text.white {
+	color: #fff;
+}
+
+.text.black {
+	color: #000;
+}
+
+.text.red, 
+.text.error {
+	color: red;
+}
+
+.text.green, 
+.text.success {
+	color: green;
+}
+
+.text.warn {
+	color: orange;
+}
+
+.text.info {
+	color: lightgreen;
 }
 
 /* # BORDER # */
