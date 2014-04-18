@@ -1,11 +1,5 @@
-pcss
-====
+layout helper
+=============
 
-simply straight simple personal-use css backbone
-
-usage
------
-
-just put as class value! as simple as that
-
-Documentation(this) will update later
+simply straight-simple for personal use css backbone. have been using the same key and value for layouting.
+the key should be self-documented, and should be easy to use
