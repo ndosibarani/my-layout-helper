@@ -153,27 +153,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .text.green, .text.success { color: green; }
 .text.warn { color: orange; }
 .text.info { color: lightgreen; }
-.text.blink {
-	-webkit-animation-name: blink;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-name: blink;
-    -moz-animation-duration: 1s;
-    -moz-animation-timing-function: linear;
-    -moz-animation-iteration-count: infinite;
-    -o-animation-name: blink;
-    -o-animation-duration: 1s;
-    -o-animation-timing-function: linear;
-    -o-animation-iteration-count: infinite;
-    -ms-animation-name: blink;
-    -ms-animation-duration: 1s;
-    -ms-animation-timing-function: linear;
-    -ms-animation-iteration-count: infinite;
-    animation-name: blink;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+.text.blink { 
+	-webkit-animation-name: _blink; -webkit-animation-duration: 1s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite;
+	-moz-animation-name: _blink; -moz-animation-duration: 1s; -moz-animation-timing-function: linear; -moz-animation-iteration-count: infinite;
+	-o-animation-name: _blink; -o-animation-duration: 1s; -o-animation-timing-function: linear; -o-animation-iteration-count: infinite;
+	-ms-animation-name: _blink; -ms-animation-duration: 1s; -ms-animation-timing-function: linear; -ms-animation-iteration-count: infinite;
+	animation-name: _blink; animation-duration: 1s; animation-timing-function: linear; animation-iteration-count: infinite;
 }
 
 /* # CLEAR #*/
@@ -190,33 +175,21 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
  * Things you might you want to adjust
  */
  /* border */
-.border.all { border: 1px solid #ddd; }
-.border.left { border-left: 1px solid #ddd; }
-.border.right { border-right: 1px solid #ddd; }
+.border { border: 1px solid #ddd; }
+.border.dot { border: 1px dotted #ddd; }
 .border.top { border-top: 1px solid #ddd; }
+.border.right { border-right: 1px solid #ddd; }
 .border.bottom { border-bottom: 1px solid #ddd; }
-.border.all.dot { border: 1px dotted #ddd; }
-.border.left.dot { border-left: 1px dotted #ddd; }
-.border.right.dot { border-right: 1px dotted #ddd; }
+.border.left { border-left: 1px solid #ddd; }
 .border.top.dot { border-top: 1px dotted #ddd; }
+.border.right.dot { border-right: 1px dotted #ddd; }
 .border.bottom.dot { border-bottom: 1px dotted #ddd; }
+.border.left.dot { border-left: 1px dotted #ddd; }
 
 /* Keyframes 
  */
-@-moz-keyframes blink {  
-    0% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1.0; }
-}
-
-@-webkit-keyframes blink {  
-    0% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1.0; }
-}
-
-@keyframes blink {  
-    0% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1.0; }
-}
+@-moz-keyframes _blink { 0% { opacity: 1.0; } 50% { opacity: 0.0; } 100% { opacity: 1.0; } }
+@-webkit-keyframes _blink { 0% { opacity: 1.0; } 50% { opacity: 0.0; } 100% { opacity: 1.0; } }
+@-o-keyframes _blink { 0% { opacity: 1.0; } 50% { opacity: 0.0; } 100% { opacity: 1.0; } }
+@-ms-keyframes _blink { 0% { opacity: 1.0; } 50% { opacity: 0.0; } 100% { opacity: 1.0; } }
+@keyframes _blink { 0% { opacity: 1.0; } 50% { opacity: 0.0; } 100% { opacity: 1.0; } }
