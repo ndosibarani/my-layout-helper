@@ -308,6 +308,26 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	padding-left: 77px;
 }
 
+.spaceb.all.ten {
+	margin: 10px;
+	padding: 10px;
+}
+
+.spaceb.all.twenty {
+	margin: 20px;
+	padding: 20px;
+}
+
+.spaceb.all.thirty {
+	margin: 30px;
+	padding: 30px;
+}
+
+.spaceb.all.far {
+	margin: 50px;
+	padding: 50px;
+}
+
 /* -- content spaces-- */
 .spacec.top.ten {
 	padding-top: 10px;
