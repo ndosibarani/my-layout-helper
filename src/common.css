@@ -396,8 +396,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	font-style: italic;
 }
 
-.text.underline {
+.text.under {
 	text-decoration: underline;
+}
+
+.text.over {
+	text-decoration: overline;
+}
+
+.text.line {
+	text-decoration: line-through;
 }
 
 .text.white {
