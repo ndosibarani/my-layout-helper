@@ -30,7 +30,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	-ms-transform: translateX(-50%);
 }
 
-/* # Spaces for layout and content # */
+/* # Spaces for layout and content and both # */
 /* layout spaces */
 .spacel.all.ten { margin: 10px; }
 .spacel.all.twenty { margin: 20px; }
@@ -50,7 +50,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .spacec.all.far { padding: 50px; }
 
 /* layout spaces & both spaces TOP 10px */
-
 .spacel.top.ten, .spaceb.top.ten { margin-top: 10px; }
 .spaceb.top.ten { padding-top: 10px; }
 
@@ -68,7 +67,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* layout spaces & both RIGHT spaces 10px */
 .spacel.right.ten, .spaceb.right.ten { margin-right: 10px; }
-
 .spaceb.right.ten { padding-right: 10px; }
 
 /* layout spaces & both RIGHT spaces 20px */
@@ -155,8 +153,35 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .text.green, .text.success { color: green; }
 .text.warn { color: orange; }
 .text.info { color: lightgreen; }
+.text.blink { /* havent tested */
+	-webkit-animation-name: blink;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: blink;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
 
-/* # BORDER # */
+/* # CLEAR #*/
+.clear.left { clear: left; }
+.clear.right { clear: right; }
+.clear.all { clear: both; }
+
+/* # DEBUG # */
+.debug.pos { background-color: #ddd; }
+.debug.txt { background-color: red; color: #fff; }
+
+/* Specific Use
+ * 
+ * Things you might you want to adjust
+ */
+ /* border */
 .border.all { border: 1px solid #ddd; }
 .border.left { border-left: 1px solid #ddd; }
 .border.right { border-right: 1px solid #ddd; }
@@ -168,11 +193,22 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .border.top.dot { border-top: 1px dotted #ddd; }
 .border.bottom.dot { border-bottom: 1px dotted #ddd; }
 
-/* # CLEAR #*/
-.clear.left { clear: left; }
-.clear.right { clear: right; }
-.clear.all { clear: both; }
+/* Keyframes 
+ */
+@-moz-keyframes blink {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
 
-/* # DEBUG # */
-.debug.pos { background-color: #ddd; }
-.debug.txt { background-color: red; color: #fff; }
+@-webkit-keyframes blink {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blink {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
