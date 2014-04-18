@@ -153,7 +153,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .text.green, .text.success { color: green; }
 .text.warn { color: orange; }
 .text.info { color: lightgreen; }
-.text.blink { /* havent tested */
+.text.blink {
 	-webkit-animation-name: blink;
     -webkit-animation-duration: 1s;
     -webkit-animation-timing-function: linear;
@@ -162,6 +162,14 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     -moz-animation-duration: 1s;
     -moz-animation-timing-function: linear;
     -moz-animation-iteration-count: infinite;
+    -o-animation-name: blink;
+    -o-animation-duration: 1s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: infinite;
+    -ms-animation-name: blink;
+    -ms-animation-duration: 1s;
+    -ms-animation-timing-function: linear;
+    -ms-animation-iteration-count: infinite;
     animation-name: blink;
     animation-duration: 1s;
     animation-timing-function: linear;
