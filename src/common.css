@@ -459,85 +459,46 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 /* # BORDER # */
-.border.small.all {
+.border.all {
 	border: 1px solid #ddd;
 }
 
-.border.small.left {
+.border.left {
 	border-left: 1px solid #ddd;
 }
 
-.border.small.right {
+.border.right {
 	border-right: 1px solid #ddd;
 }
 
-.border.small.top {
+.border.top {
 	border-top: 1px solid #ddd;
 }
 
-.border.small.bottom {
+.border.bottom {
 	border-bottom: 1px solid #ddd;
 }
 
-.border.small.all.dot {
+.border.all.dot {
 	border: 1px dotted #ddd;
 }
 
-.border.small.left.dot {
+.border.left.dot {
 	border-left: 1px dotted #ddd;
 }
 
-.border.small.right.dot {
+.border.right.dot {
 	border-right: 1px dotted #ddd;
 }
 
-.border.small.top.dot {
+.border.top.dot {
 	border-top: 1px dotted #ddd;
 }
 
-.border.small.bottom.dot {
+.border.bottom.dot {
 	border-bottom: 1px dotted #ddd;
 }
 
-.border.bog.all {
-	border: 5px solid #ddd;
-}
-
-.border.big.left {
-	border-left: 5px solid #ddd;
-}
-
-.border.big.right {
-	border-right: 5px solid #ddd;
-}
-
-.border.big.top {
-	border-top: 5px solid #ddd;
-}
-
-.border.big.bottom {
-	border-bottom: 5px solid #ddd;
-}
-
-.border.big.all.dot {
-	border: 5px dotted #ddd;
-}
-
-.border.big.left.dot {
-	border-left: 5px dotted #ddd;
-}
-
-.border.big.right.dot {
-	border-right: 5px dotted #ddd;
-}
-
-.border.big.top.dot {
-	border-top: 5px dotted #ddd;
-}
-
-.border.big.bottom.dot {
-	border-bottom: 1px dotted #ddd;
-}
 
 /* # CLEAR #*/
 .clear.left {
