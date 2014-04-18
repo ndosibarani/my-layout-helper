@@ -68,364 +68,364 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* # WHITE-SPACE # */
 /* -- layout spaces-- */
-.more.inter.space.top.ten, 
-.more.both.space.top.ten {
+.spacel.top.ten, 
+.spaceb.top.ten {
 	margin-top: 10px;
 }
 
-.more.both.space.top.ten {
+.spaceb.top.ten {
 	padding-top: 10px;
 }
 
-.more.inter.space.all.ten {
+.spacel.all.ten {
 	margin: 10px;
 }
 
-.more.inter.space.top.twenty, 
-.more.both.space.top.twenty {
+.spacel.top.twenty, 
+.spaceb.top.twenty {
 	margin-top: 20px;
 }
 
-.more.both.space.top.twenty {
+.spaceb.top.twenty {
 	padding-top: 20px;
 }
 
-.more.inter.space.all.twenty {
+.spacel.all.twenty {
 	margin: 20px;
 }
 
-.more.inter.space.top.thirty, 
-.more.both.space.top.thirty {
+.spacel.top.thirty, 
+.spaceb.top.thirty {
 	margin-top: 30px;
 }
 
-.more.both.space.top.thirty {
+.spaceb.top.thirty {
 	padding-top: 30px;
 }
 
-.more.inter.space.all.thirty {
+.spacel.all.thirty {
 	margin: 30px;
 }
 
-.more.inter.space.top.fourty, 
-.more.both.space.top.fourty {
+.spacel.top.fourty, 
+.spaceb.top.fourty {
 	margin-top: 40px;
 }
 
-.more.both.space.top.fourty {
+.spaceb.top.fourty {
 	padding-top: 40px;
 }
 
-.more.inter.space.all.fourty {
+.spacel.all.fourty {
 	margin: 40px;
 }
 
-.more.inter.space.top.fifty, 
-.more.both.space.top.fifty {
+.spacel.top.fifty, 
+.spaceb.top.fifty {
 	margin-top: 50px;
 }
 
-.more.both.space.top.fifty {
+.spaceb.top.fifty {
 	padding-top: 50px;
 }
 
-.more.inter.space.all.fifty {
+.spacel.all.fifty {
 	margin: 50px;
 }
 
-.more.inter.space.top.far, 
-.more.both.space.top.far {
+.spacel.top.far, 
+.spaceb.top.far {
 	margin-top: 77px;
 }
 
-.more.both.space.top.far {
+.spaceb.top.far {
 	padding-top: 77px;
 }
 
-.more.inter.space.all.far {
+.spacel.all.far {
 	margin: 70px;
 }
 
-.more.inter.space.right.ten, 
-.more.both.space.right.ten {
+.spacel.right.ten, 
+.spaceb.right.ten {
 	margin-right: 10px;
 }
 
-.more.both.space.right.ten {
+.spaceb.right.ten {
 	padding-right: 10px;
 }
 
-.more.inter.space.right.twenty, 
-.more.both.space.right.twenty {
+.spacel.right.twenty, 
+.spaceb.right.twenty {
 	margin-right: 20px;
 }
 
-.more.both.space.right.twenty {
+.spaceb.right.twenty {
 	padding-right: 20px;
 }
 
-.more.inter.space.right.thirty, 
-.more.both.space.right.thirty {
+.spacel.right.thirty, 
+.spaceb.right.thirty {
 	margin-right: 30px;
 }
 
-.more.both.space.right.thirty {
+.spaceb.right.thirty {
 	padding-right: 30px;
 }
 
-.more.inter.space.right.fourty, 
-.more.both.space.right.fourty {
+.spacel.right.fourty, 
+.spaceb.right.fourty {
 	margin-right: 40px;
 }
 
-.more.both.space.right.fourty {
+.spaceb.right.fourty {
 	padding-right: 40px;
 }
 
-.more.inter.space.right.fifty, 
-.more.both.space.right.fifty {
+.spacel.right.fifty, 
+.spaceb.right.fifty {
 	margin-right: 50px;
 }
 
-.more.both.space.right.fifty {
+.spaceb.right.fifty {
 	padding-right: 50px;
 }
 
-.more.inter.space.right.far, 
-.more.both.space.right.far {
+.spacel.right.far, 
+.spaceb.right.far {
 	margin-right: 77px;
 }
 
-.more.both.space.right.far {
+.spaceb.right.far {
 	padding-right: 77px;
 }
 
-.more.inter.space.bottom.ten, 
-.more.both.space.bottom.ten {
+.spacel.bottom.ten, 
+.spaceb.bottom.ten {
 	margin-bottom: 10px;
 }
 
-.more.both.space.bottom.ten {
+.spaceb.bottom.ten {
 	padding-bottom: 10px;
 }
 
-.more.inter.space.bottom.twenty, 
-.more.both.space.bottom.twenty {
+.spacel.bottom.twenty, 
+.spaceb.bottom.twenty {
 	margin-bottom: 20px;
 }
 
-.more.both.space.bottom.twenty {
+.spaceb.bottom.twenty {
 	padding-bottom: 20px;
 }
 
-.more.inter.space.bottom.thirty, 
-.more.both.space.bottom.thirty {
+.spacel.bottom.thirty, 
+.spaceb.bottom.thirty {
 	margin-bottom: 30px;
 }
 
-.more.both.space.bottom.thirty {
+.spaceb.bottom.thirty {
 	padding-bottom: 30px;
 }
 
-.more.inter.space.bottom.fourty, 
-.more.both.space.bottom.fourty {
+.spacel.bottom.fourty, 
+.spaceb.bottom.fourty {
 	margin-bottom: 40px;
 }
 
-.more.both.space.bottom.fourty {
+.spaceb.bottom.fourty {
 	padding-bottom: 40px;
 }
 
-.more.inter.space.bottom.fifty, 
-.more.both.space.bottom.fifty {
+.spacel.bottom.fifty, 
+.spaceb.bottom.fifty {
 	margin-bottom: 50px;
 }
 
-.more.both.space.bottom.fifty {
+.spaceb.bottom.fifty {
 	padding-bottom: 50px
 }
 
-.more.inter.space.bottom.far, 
-.more.both.space.bottom.far {
+.spacel.bottom.far, 
+.spaceb.bottom.far {
 	margin-bottom: 77px;
 }
 
-.more.both.space.bottom.far {
+.spaceb.bottom.far {
 	padding-bottom: 77px;
 }
 
-.more.inter.space.left.ten, 
-.more.both.space.left.ten {
+.spacel.left.ten, 
+.spaceb.left.ten {
 	margin-left: 10px;
 }
 
-.more.both.space.left.ten {
+.spaceb.left.ten {
 	padding-left: 10px;
 }
 
-.more.inter.space.left.twenty, 
-.more.both.space.left.twenty {
+.spacel.left.twenty, 
+.spaceb.left.twenty {
 	margin-left: 20px;
 }
 
-.more.both.space.left.twenty {
+.spaceb.left.twenty {
 	padding-left: 20px;
 }
 
-.more.inter.space.left.thirty, 
-.more.both.space.left.thirty {
+.spacel.left.thirty, 
+.spaceb.left.thirty {
 	margin-left: 30px;
 }
 
-.more.both.space.left.thirty {
+.spaceb.left.thirty {
 	padding-left: 30px;
 }
 
-.more.inter.space.left.fourty, 
-.more.both.space.left.fourty {
+.spacel.left.fourty, 
+.spaceb.left.fourty {
 	margin-left: 40px;
 }
 
-.more.both.space.left.fourty {
+.spaceb.left.fourty {
 	padding-left: 40px;
 }
 
-.more.inter.space.left.fifty, 
-.more.both.space.left.fifty {
+.spacel.left.fifty, 
+.spaceb.left.fifty {
 	margin-left: 50px;
 }
 
-.more.both.space.left.fifty {
+.spaceb.left.fifty {
 	padding-left: 50px;
 }
 
-.more.inter.space.left.far, 
-.more.both.space.left.far {
+.spacel.left.far, 
+.spaceb.left.far {
 	margin-left: 77px;
 }
 
-.more.both.space.left.far {
+.spaceb.left.far {
 	padding-left: 77px;
 }
 
 /* -- content spaces-- */
-.more.intra.space.top.ten {
+.spacec.top.ten {
 	padding-top: 10px;
 }
 
-.more.intra.space.all.ten {
+.spacec.all.ten {
 	padding: 10px;
 }
 
-.more.intra.space.top.twenty {
+.spacec.top.twenty {
 	padding-top: 20px;
 }
 
-.more.intra.space.all.twenty {
+.spacec.all.twenty {
 	padding: 20px;
 }
 
-.more.intra.space.top.thirty {
+.spacec.top.thirty {
 	padding-top: 30px;
 }
 
-.more.intra.space.all.thirty {
+.spacec.all.thirty {
 	padding: 30px;
 }
 
-.more.intra.space.top.fourty {
+.spacec.top.fourty {
 	padding-top: 40px;
 }
 
-.more.intra.space.all.fourty {
+.spacec.all.fourty {
 	padding: 40px;
 }
 
-.more.intra.space.top.fifty {
+.spacec.top.fifty {
 	padding-top: 50px;
 }
 
-.more.intra.space.all.fifty {
+.spacec.all.fifty {
 	padding: 50px;
 }
 
-.more.intra.space.top.far {
+.spacec.top.far {
 	padding-top: 77px;
 }
 
-.more.intra.space.all.far {
+.spacec.all.far {
 	padding: 77px;
 }
 
-.more.intra.space.right.ten {
+.spacec.right.ten {
 	padding-right: 10px;
 }
 
-.more.intra.space.right.twenty {
+.spacec.right.twenty {
 	padding-right: 20px;
 }
 
-.more.intra.space.right.thirty {
+.spacec.right.thirty {
 	padding-right: 30px;
 }
 
-.more.intra.space.right.fourty {
+.spacec.right.fourty {
 	padding-right: 40px;
 }
 
-.more.intra.space.right.fifty {
+.spacec.right.fifty {
 	padding-right: 50px;
 }
 
-.more.intra.space.right.far {
+.spacec.right.far {
 	padding-right: 77px;
 }
 
-.more.intra.space.bottom.ten {
+.spacec.bottom.ten {
 	padding-bottom: 10px;
 }
 
-.more.intra.space.bottom.twenty {
+.spacec.bottom.twenty {
 	padding-bottom: 20px;
 }
 
-.more.intra.space.bottom.thirty {
+.spacec.bottom.thirty {
 	padding-bottom: 30px;
 }
 
-.more.intra.space.bottom.fourty {
+.spacec.bottom.fourty {
 	padding-bottom: 40px;
 }
 
-.more.intra.space.bottom.fifty {
+.spacec.bottom.fifty {
 	padding-bottom: 50px;
 }
 
-.more.intra.space.bottom.far {
+.spacec.bottom.far {
 	padding-bottom: 77px;
 }
 
-.more.intra.space.left.ten {
+.spacec.left.ten {
 	padding-left: 10px;
 }
 
-.more.intra.space.left.twenty {
+.spacec.left.twenty {
 	padding-left: 20px;
 }
 
-.more.intra.space.left.thirty {
+.spacec.left.thirty {
 	padding-left: 30px;
 }
 
-.more.intra.space.left.fourty {
+.spacec.left.fourty {
 	padding-left: 40px;
 }
 
-.more.intra.space.left.fifty {
+.spacec.left.fifty {
 	padding-left: 50px;
 }
 
-.more.intra.space.left.far {
+.spacec.left.far {
 	padding-left: 77px;
 }
 
