@@ -16,19 +16,13 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .stay.top.center {
 	left: 50%;
 	transform: translateX(-50%);
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
 }
 .stay.bottom, .stay.bottom.center { bottom: 0; }
 .stay.bottom.center {
 	left: 50%;
 	transform: translateX(-50%);
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
 }
 
 /* # Spaces for layout and content and both # */
@@ -155,10 +149,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .text.warn { color: orange; }
 .text.info { color: lightgreen; }
 .text.blink { /* IE <10 not supported */
-	-webkit-animation-name: _blink; -webkit-animation-duration: 1s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite;
-	-moz-animation-name: _blink; -moz-animation-duration: 1s; -moz-animation-timing-function: linear; -moz-animation-iteration-count: infinite;
 	-o-animation-name: _blink; -o-animation-duration: 1s; -o-animation-timing-function: linear; -o-animation-iteration-count: infinite;
-	-ms-animation-name: _blink; -ms-animation-duration: 1s; -ms-animation-timing-function: linear; -ms-animation-iteration-count: infinite;
 	animation-name: _blink; animation-duration: 1s; animation-timing-function: linear; animation-iteration-count: infinite;
 }
 
@@ -189,8 +180,5 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* Keyframes 
  */
-@-moz-keyframes _blink { 0% { opacity: 1.0; } 50% { opacity: 0.0; } 100% { opacity: 1.0; } }
-@-webkit-keyframes _blink { 0% { opacity: 1.0; } 50% { opacity: 0.0; } 100% { opacity: 1.0; } }
 @-o-keyframes _blink { 0% { opacity: 1.0; } 50% { opacity: 0.0; } 100% { opacity: 1.0; } }
-@-ms-keyframes _blink { 0% { opacity: 1.0; } 50% { opacity: 0.0; } 100% { opacity: 1.0; } }
 @keyframes _blink { 0% { opacity: 1.0; } 50% { opacity: 0.0; } 100% { opacity: 1.0; } }
