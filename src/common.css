@@ -3,6 +3,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* begin */
 .centered { margin-right: auto; margin-left: auto; }
+/* you should use 'clear' after using align key */
 .align { display: inline; }
 .align.left { float: left; }
 .align.right { float: right; }
