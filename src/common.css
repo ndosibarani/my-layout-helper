@@ -9,7 +9,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .align.right { float: right; }
 
 .stay { position: relative; }
-.stay.left, .stay.top, .stay.right, .stay.bottom { position: absolute; }
+.stay.left, .stay.top, .stay.right, .stay.bottom { position: fixed; }
 .stay.left { left: 0; }
 .stay.right { right: 0; }
 .stay.top, .stay.top.center { top: 0; }
