@@ -8,7 +8,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .align.left { float: left; }
 .align.right { float: right; }
 
-.stay { position: relative; }
+.stay { position: relative;}
 .stay.left, .stay.top, .stay.right, .stay.bottom { position: fixed; }
 .stay.left { left: 0; }
 .stay.right { right: 0; }
@@ -136,8 +136,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .text.left { text-align: left; }
 .text.right { text-align: right; }
 .text.center { text-align: center; }
-.text.light { font-style: lighter; }
-.text.bold { font-style: bolder; }
+.text.light { font-weight: lighter; }
+.text.bold { font-weight: bolder; }
 .text.italic { font-style: italic; }
 .text.under { text-decoration: underline; }
 .text.over { text-decoration: overline; }
